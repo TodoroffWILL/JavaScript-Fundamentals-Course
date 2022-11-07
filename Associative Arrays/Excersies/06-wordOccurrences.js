@@ -11,7 +11,7 @@ function words(words) {
   let sortedWordsbyCount = Object.entries(countShelf);
   sortedWordsbyCount.sort((a, b) => b[1] - a[1]);
   sortedWordsbyCount.forEach((el) => {
-    console.log(`${el[0]} -> ${el[1]}`);
+    console.log(`${el[0]} -> ${el[1]} times`);
   });
 }
 words([

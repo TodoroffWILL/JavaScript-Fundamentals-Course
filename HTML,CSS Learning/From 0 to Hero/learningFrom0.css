@@ -1,0 +1,48 @@
+body {
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 10pt;
+}
+h1 {
+  font: 20pt Arial;
+  font-weight: bold;
+  color: aquamarine;
+  line-height: 15pt;
+}
+p.kiwi {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  line-height: 14pt;
+  color: #593d87;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+img {
+  border: inset brown 15px;
+  background-color: #593d87;
+  border-radius: 30px;
+  padding: 5%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #8094d6;
+}
+a:hover,
+a:active {
+  color: #ff9933;
+}
+footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: right;
+}
