@@ -1,48 +1,20 @@
-body {
-  font-size: 10pt;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: black;
-  line-height: 14pt;
-  padding-left: 5pt;
-  padding-right: 5pt;
-  padding-top: 10pt;
+article {
+  column-count: 3;
+  column-gap: 21px;
+  column-rule-width: 1px;
+  column-rule-style: solid;
+  column-rule-color: #000;
 }
 h1 {
-  font: 20pt Arial;
-  font-weight: bold;
-  color: aquamarine;
-  line-height: 15pt;
+  text-align: center;
+  column-span: all;
 }
-p.kiwi {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 14pt;
-  line-height: 14pt;
-  color: #593d87;
-  margin-top: 10px;
-  text-decoration: underline;
-}
-img {
-  border: inset brown 15px;
-  background-color: #593d87;
-  border-radius: 30px;
-  padding: 5%;
-  display: inline-block;
-}
-a {
-  text-decoration: none;
-}
-a:link,
-a:visited {
-  color: #8094d6;
-}
-a:hover,
-a:active {
-  color: #ff9933;
+p {
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
 footer {
-  font-size: 9pt;
-  font-style: italic;
-  line-height: 12pt;
+  column-span: all;
+  margin: 20px;
   text-align: right;
 }
